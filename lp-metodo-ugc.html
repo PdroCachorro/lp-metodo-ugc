@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Método UGC</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap">
 <style>
@@ -455,6 +460,12 @@
   .format-row.nudge{animation:row-nudge 1600ms ease-in-out;}
   @media (max-width:640px){
     .format-nav{display:none;}
+    .format-card{width:250px;}
+    .format-cap h3{font-size:14.5px;}
+    .format-thumb .play-btn{width:52px;height:52px;}
+    .format-thumb .play-btn svg{width:18px;height:18px;}
+    .testi-grid{scroll-snap-type:x mandatory;gap:14px;}
+    .testi-card{width:82vw;max-width:340px;}
   }
 
   .mini-cta{
@@ -467,6 +478,9 @@
   }
   .mini-cta:hover{transform:translateY(-2px);filter:brightness(1.06);}
 </style>
+</head>
+<body>
+
 
 <div class="timerbar">
   <div class="timerbar-inner">
@@ -481,9 +495,7 @@
     <h1>Pare de pagar modelo. <span class="hl">A IA já faz isso por você.</span></h1>
     <p class="lede">O passo a passo pra criar personagens de IA hiper-realistas, vestir seu produto neles e gravar vídeo nativo — sem estúdio, sem contratar ninguém.</p>
     <div class="video-card" style="margin:32px auto 0;">
-      <div class="grid-lines"></div>
-      <div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
-      <span class="video-caption">vídeo de apresentação</span>
+      <iframe src="https://player-vz-b2857e0f-3f9.tv.pandavideo.com.br/embed/?v=c6f522c3-50cd-4312-8ab3-65e9b4cc8aa7" style="position:absolute;inset:0;width:100%;height:100%;border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
     <div class="btn-wrap">
       <button class="btn btn-green" id="scrollBtn">
@@ -874,3 +886,5 @@
     });
   })();
 </script>
+
+</body></html>
